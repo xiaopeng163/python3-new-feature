@@ -1,3 +1,9 @@
+"""
+pep238.py
+Created by Peng Xiao on 2018-07-13. xiaoquwl@gmail.com
+"""
+
+from __future__ import division
 
 a = 1 / 4
 b = 1 / 4.0
