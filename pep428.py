@@ -11,10 +11,18 @@ Post-History:	https://mail.python.org/pipermail/python-ideas/2012-October/016338
 Resolution:	https://mail.python.org/pipermail/python-dev/2013-November/130424.html
 """
 
+from __future__ import print_function
+import os
 from pathlib import Path
 
-# basic
-print('current file path:', Path(__file__).absolute())
-print('current run  path:', Path('.').absolute())
 
-# file find 
+# 1. find the current file path
+
+
+# 2. list all files and folders in current path
+
+
+# 3. go to the parent path / go into a folder
+
+
+# 4 . check path if exist?
