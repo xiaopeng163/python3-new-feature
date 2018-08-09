@@ -1,14 +1,4 @@
 from queue import deque
-import time
-
-
-def search(n):
-    a,b = 0, 1
-    while True:
-        if len(str(a)) >= n:
-            return a
-        yield
-        a, b = b, a + b
 
 
 class Task:
@@ -49,12 +39,3 @@ class Scheduler:
                 assert yielded is None
                 #print('now yieldedd')
                 self.runnable_tasks.append(task)
-
-
-if __name__ == "__main__":
-    t = time.time()
-    scheduler = Scheduler()
-    scheduler.add(search(30))
-    scheduler.add(search(40))
-    scheduler.run_to_completion()
-    print(f'time: {time.time() - t}')
