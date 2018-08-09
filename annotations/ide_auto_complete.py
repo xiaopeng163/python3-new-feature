@@ -1,19 +1,21 @@
 
-from typing import List, Dict, Optional
+from typing import List, Dict
 
-
-def foo(item1, item2):
+def foo(a, b):
     """
 
-    :param item1: list
-    :param item2: dict
-    :return: list
+    :param a: int
+    :param b: str
+    :return: int
     """
     pass
 
 
-def bar(item1: List[int], item2: Dict[str, int]) -> List[Dict[str, int]]:
-    
-    return [{}]
+a: int = 1
+b: List[int] = [1, 2]
 
+a = 1
+b = [1, 2]
 
+def foo(a: List[int], b: Dict[str, int]) -> List[int]:
+    return [1, 2]

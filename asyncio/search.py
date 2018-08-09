@@ -14,5 +14,5 @@ def longer(x, n):
 
 
 if __name__ == "__main__":
-    print(search(10))
-    print(search(20))
+    print(search(1000))
+    print(search(2000))
