@@ -8,4 +8,4 @@ def sum(x: int, y: int) -> int:
 
 if __name__ == "__main__":
 
-    sum('1', '2')
+    print(sum('1', '2'))
