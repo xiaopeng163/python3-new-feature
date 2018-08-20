@@ -12,5 +12,8 @@ def get_foo(foo_id: Optional[int]) -> Optional[Foo]:
 
 
 my_foo = get_foo(3)
-if my_foo is not None:
-    print(my_foo.id)
+print(my_foo.id)
+
+# change to
+# if my_foo is not None:
+#     print(my_foo.id)
